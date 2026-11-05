@@ -1,6 +1,6 @@
-{
+﻿{
     "childUser":  "illai",
-    "lockdown":  true,
+    "lockdown":  false,
     "bonus":  {
                   "date":  "",
                   "minutes":  0
