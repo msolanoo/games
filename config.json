@@ -1,0 +1,395 @@
+{
+  "childUser": "illai",
+  "lockdown": true,
+  "bonus": {
+    "date": "",
+    "minutes": 0
+  },
+  "schedule": {
+    "mon": {
+      "windows": [
+        "17:00-18:30"
+      ],
+      "minutes": 0
+    },
+    "tue": {
+      "windows": [
+        "17:00-18:30"
+      ],
+      "minutes": 0
+    },
+    "wed": {
+      "windows": [
+        "17:00-18:30"
+      ],
+      "minutes": 0
+    },
+    "thu": {
+      "windows": [
+        "17:00-18:30"
+      ],
+      "minutes": 0
+    },
+    "fri": {
+      "windows": [
+        "17:00-19:00"
+      ],
+      "minutes": 0
+    },
+    "sat": {
+      "windows": [
+        "10:00-12:00",
+        "14:00-16:00"
+      ],
+      "minutes": 120
+    },
+    "sun": {
+      "windows": [
+        "10:00-12:00",
+        "14:00-16:00"
+      ],
+      "minutes": 120
+    }
+  },
+  "apps": [
+    {
+      "name": "Steam",
+      "match": [
+        "steam",
+        "steamwebhelper"
+      ],
+      "paths": [
+        "*\\steamapps\\common\\*"
+      ],
+      "mode": "scheduled"
+    },
+    {
+      "name": "Epic Games",
+      "match": [
+        "epicgameslauncher",
+        "epicwebhelper"
+      ],
+      "paths": [
+        "*\\Epic Games\\*"
+      ],
+      "mode": "scheduled"
+    },
+    {
+      "name": "Roblox",
+      "match": [
+        "robloxplayerbeta",
+        "robloxstudiobeta"
+      ],
+      "paths": [
+        "*\\Roblox\\Versions\\*"
+      ],
+      "mode": "scheduled"
+    },
+    {
+      "name": "Riot / Valorant / League",
+      "match": [
+        "riotclientservices",
+        "riotclientux",
+        "valorant-win64-shipping",
+        "leagueclient"
+      ],
+      "paths": [
+        "*\\Riot Games\\*"
+      ],
+      "mode": "scheduled"
+    },
+    {
+      "name": "Battle.net / Blizzard",
+      "match": [
+        "battle.net"
+      ],
+      "paths": [
+        "*\\Battle.net\\*",
+        "*\\Blizzard Entertainment\\*"
+      ],
+      "mode": "scheduled"
+    },
+    {
+      "name": "Minecraft",
+      "match": [
+        "minecraftlauncher",
+        "minecraft"
+      ],
+      "paths": [
+        "*\\.minecraft\\*"
+      ],
+      "mode": "scheduled"
+    },
+    {
+      "name": "EA / Ubisoft / GOG",
+      "match": [
+        "eadesktop",
+        "origin",
+        "ubisoftconnect",
+        "upc",
+        "galaxyclient"
+      ],
+      "paths": [
+        "*\\EA Games\\*",
+        "*\\Ubisoft\\*",
+        "*\\GOG Galaxy\\Games\\*"
+      ],
+      "mode": "scheduled"
+    },
+    {
+      "name": "Xbox app / Console Companion",
+      "match": [
+        "xboxpcapp",
+        "xboxapp"
+      ],
+      "paths": [
+        "*\\XboxGames\\*"
+      ],
+      "mode": "scheduled"
+    },
+    {
+      "name": "Discord",
+      "match": [
+        "discord",
+        "discordptb",
+        "discordcanary"
+      ],
+      "paths": [
+        "*\\Discord\\app-*",
+        "*\\DiscordPTB\\*",
+        "*\\DiscordCanary\\*"
+      ],
+      "mode": "scheduled",
+      "limit": {
+        "weekday": 30,
+        "weekend": null
+      }
+    },
+    {
+      "name": "Rainbow Six Siege",
+      "match": [
+        "rainbowsix",
+        "rainbowsix_be",
+        "rainbowsix_vulkan"
+      ],
+      "paths": [
+        "*\\Tom Clancy's Rainbow Six Siege\\*"
+      ],
+      "mode": "scheduled"
+    },
+    {
+      "name": "osu!",
+      "match": [
+        "osu!"
+      ],
+      "paths": [
+        "*\\osulazer\\*",
+        "*\\osu!\\*"
+      ],
+      "mode": "scheduled"
+    },
+    {
+      "name": "Lunar Client (Minecraft)",
+      "match": [
+        "lunar client"
+      ],
+      "paths": [
+        "*\\Lunar Client\\*",
+        "*\\.lunarclient\\*"
+      ],
+      "mode": "scheduled"
+    },
+    {
+      "name": "TUNG",
+      "match": [
+        "tung"
+      ],
+      "paths": [
+        "*\\TUNG*"
+      ],
+      "mode": "scheduled"
+    },
+    {
+      "name": "BlueStacks (Android games)",
+      "match": [
+        "hd-player",
+        "hd-multiinstancemanager",
+        "bluestacksservices",
+        "bluestacksstore"
+      ],
+      "paths": [
+        "*\\BlueStacks_nxt\\*",
+        "*\\BlueStacks X\\*",
+        "*\\BlueStacks Services\\*"
+      ],
+      "mode": "scheduled"
+    },
+    {
+      "name": "Google Play Games",
+      "match": [
+        "googleplaygames",
+        "crosvm"
+      ],
+      "paths": [
+        "*\\Google\\Play Games\\*"
+      ],
+      "mode": "scheduled"
+    },
+    {
+      "name": "Solitaire & Casual Games",
+      "match": [
+        "solitaire"
+      ],
+      "paths": [
+        "*\\Microsoft.MicrosoftSolitaireCollection*"
+      ],
+      "mode": "scheduled"
+    },
+    {
+      "name": "Wave (Roblox executor)",
+      "match": [
+        "wave"
+      ],
+      "paths": [
+        "*\\Wave\\*"
+      ],
+      "mode": "always"
+    },
+    {
+      "name": "BSS macro / AutoHotkey",
+      "match": [
+        "autohotkey",
+        "autohotkey64",
+        "autohotkey32",
+        "autohotkeyu64",
+        "autohotkeyu32",
+        "autohotkeyux"
+      ],
+      "paths": [
+        "*\\bss macro\\*"
+      ],
+      "mode": "always"
+    },
+    {
+      "name": "MuMu Player (Android games)",
+      "match": [
+        "mumuplayer",
+        "mumunxdevice",
+        "mumuvmmheadless",
+        "mumumanager",
+        "mumumultiplayer",
+        "nemuplayer",
+        "nemuheadless",
+        "mumunxmain"
+      ],
+      "paths": [
+        "*\\Netease\\MuMu*",
+        "*\\MuMuPlayer*",
+        "*\\MuMu Player*"
+      ],
+      "mode": "scheduled"
+    }
+  ],
+  "sites": [
+    {
+      "domain": "roblox.com",
+      "mode": "scheduled"
+    },
+    {
+      "domain": "epicgames.com",
+      "mode": "scheduled"
+    },
+    {
+      "domain": "fortnite.com",
+      "mode": "scheduled"
+    },
+    {
+      "domain": "store.steampowered.com",
+      "mode": "scheduled"
+    },
+    {
+      "domain": "steamcommunity.com",
+      "mode": "scheduled"
+    },
+    {
+      "domain": "twitch.tv",
+      "mode": "scheduled"
+    },
+    {
+      "domain": "poki.com",
+      "mode": "scheduled"
+    },
+    {
+      "domain": "crazygames.com",
+      "mode": "scheduled"
+    },
+    {
+      "domain": "miniclip.com",
+      "mode": "scheduled"
+    },
+    {
+      "domain": "y8.com",
+      "mode": "scheduled"
+    },
+    {
+      "domain": "kongregate.com",
+      "mode": "scheduled"
+    },
+    {
+      "domain": "itch.io",
+      "mode": "scheduled"
+    },
+    {
+      "domain": "discord.com",
+      "mode": "scheduled"
+    },
+    {
+      "domain": "discord.gg",
+      "mode": "scheduled"
+    },
+    {
+      "domain": "discordapp.com",
+      "mode": "scheduled"
+    },
+    {
+      "domain": "discordapp.net",
+      "mode": "scheduled"
+    },
+    {
+      "domain": "discord.media",
+      "mode": "scheduled"
+    },
+    {
+      "domain": "ppy.sh",
+      "mode": "scheduled"
+    },
+    {
+      "domain": "osu.ppy.sh",
+      "mode": "scheduled"
+    },
+    {
+      "domain": "lunarclient.com",
+      "mode": "scheduled"
+    },
+    {
+      "domain": "bluestacks.com",
+      "mode": "scheduled"
+    },
+    {
+      "domain": "now.gg",
+      "mode": "scheduled"
+    },
+    {
+      "domain": "ubisoft.com",
+      "mode": "scheduled"
+    },
+    {
+      "domain": "playvalorant.com",
+      "mode": "scheduled"
+    },
+    {
+      "domain": "mumuplayer.com",
+      "mode": "scheduled"
+    }
+  ]
+}
