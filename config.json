@@ -1,6 +1,6 @@
 {
   "childUser": "illai",
-  "lockdown": true,
+  "lockdown": false,
   "bonus": {
     "date": "",
     "minutes": 0
@@ -161,7 +161,7 @@
       ],
       "mode": "scheduled",
       "limit": {
-        "weekday": 30,
+        "weekday": 120,
         "weekend": null
       }
     },
