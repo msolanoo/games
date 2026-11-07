@@ -1,127 +1,102 @@
 {
-  "childUser": "illai",
-  "lockdown": false,
-  "bonus": {
-    "date": "",
-    "minutes": 0
-  },
-  "schedule": {
-    "mon": {
-      "windows": [
-        "17:00-18:30"
-      ],
-      "minutes": 0
-    },
-    "tue": {
-      "windows": [
-        "17:00-18:30"
-      ],
-      "minutes": 0
-    },
-    "wed": {
-      "windows": [
-        "17:00-18:30"
-      ],
-      "minutes": 0
-    },
-    "thu": {
-      "windows": [
-        "17:00-18:30"
-      ],
-      "minutes": 0
-    },
-    "fri": {
-      "windows": [
-        "14:00-19:00"
-      ],
-      "minutes": 120
-    },
-    "sat": {
-      "windows": [
-        "10:00-12:00",
-        "14:00-16:00"
-      ],
-      "minutes": 120
-    },
-    "sun": {
-      "windows": [
-        "10:00-12:00",
-        "14:00-16:00"
-      ],
-      "minutes": 120
-    }
-  },
   "apps": [
     {
-      "name": "Steam",
+      "limit": {
+        "weekday": null,
+        "weekend": null
+      },
       "match": [
         "steam",
         "steamwebhelper"
       ],
+      "mode": "scheduled",
+      "name": "Steam",
       "paths": [
         "*\\steamapps\\common\\*"
-      ],
-      "mode": "scheduled"
+      ]
     },
     {
-      "name": "Epic Games",
+      "limit": {
+        "weekday": null,
+        "weekend": null
+      },
       "match": [
         "epicgameslauncher",
         "epicwebhelper"
       ],
+      "mode": "scheduled",
+      "name": "Epic Games",
       "paths": [
         "*\\Epic Games\\*"
-      ],
-      "mode": "scheduled"
+      ]
     },
     {
-      "name": "Roblox",
+      "limit": {
+        "weekday": null,
+        "weekend": null
+      },
       "match": [
         "robloxplayerbeta",
         "robloxstudiobeta"
       ],
+      "mode": "scheduled",
+      "name": "Roblox",
       "paths": [
         "*\\Roblox\\Versions\\*"
-      ],
-      "mode": "scheduled"
+      ]
     },
     {
-      "name": "Riot / Valorant / League",
+      "limit": {
+        "weekday": null,
+        "weekend": null
+      },
       "match": [
         "riotclientservices",
         "riotclientux",
         "valorant-win64-shipping",
         "leagueclient"
       ],
+      "mode": "scheduled",
+      "name": "Riot / Valorant / League",
       "paths": [
         "*\\Riot Games\\*"
-      ],
-      "mode": "scheduled"
+      ]
     },
     {
-      "name": "Battle.net / Blizzard",
+      "limit": {
+        "weekday": null,
+        "weekend": null
+      },
       "match": [
         "battle.net"
       ],
+      "mode": "scheduled",
+      "name": "Battle.net / Blizzard",
       "paths": [
         "*\\Battle.net\\*",
         "*\\Blizzard Entertainment\\*"
-      ],
-      "mode": "scheduled"
+      ]
     },
     {
-      "name": "Minecraft",
+      "limit": {
+        "weekday": null,
+        "weekend": null
+      },
       "match": [
         "minecraftlauncher",
         "minecraft"
       ],
+      "mode": "scheduled",
+      "name": "Minecraft",
       "paths": [
         "*\\.minecraft\\*"
-      ],
-      "mode": "scheduled"
+      ]
     },
     {
-      "name": "EA / Ubisoft / GOG",
+      "limit": {
+        "weekday": null,
+        "weekend": null
+      },
       "match": [
         "eadesktop",
         "origin",
@@ -129,134 +104,174 @@
         "upc",
         "galaxyclient"
       ],
+      "mode": "scheduled",
+      "name": "EA / Ubisoft / GOG",
       "paths": [
         "*\\EA Games\\*",
         "*\\Ubisoft\\*",
         "*\\GOG Galaxy\\Games\\*"
-      ],
-      "mode": "scheduled"
+      ]
     },
     {
-      "name": "Xbox app / Console Companion",
+      "limit": {
+        "weekday": null,
+        "weekend": null
+      },
       "match": [
         "xboxpcapp",
         "xboxapp"
       ],
+      "mode": "scheduled",
+      "name": "Xbox app / Console Companion",
       "paths": [
         "*\\XboxGames\\*"
-      ],
-      "mode": "scheduled"
+      ]
     },
     {
-      "name": "Discord",
+      "limit": {
+        "weekday": 120,
+        "weekend": null
+      },
       "match": [
         "discord",
         "discordptb",
         "discordcanary"
       ],
+      "mode": "scheduled",
+      "name": "Discord",
       "paths": [
         "*\\Discord\\app-*",
         "*\\DiscordPTB\\*",
         "*\\DiscordCanary\\*"
-      ],
-      "mode": "scheduled",
-      "limit": {
-        "weekday": 120,
-        "weekend": null
-      }
+      ]
     },
     {
-      "name": "Rainbow Six Siege",
+      "limit": {
+        "weekday": null,
+        "weekend": null
+      },
       "match": [
         "rainbowsix",
         "rainbowsix_be",
         "rainbowsix_vulkan"
       ],
+      "mode": "scheduled",
+      "name": "Rainbow Six Siege",
       "paths": [
         "*\\Tom Clancy's Rainbow Six Siege\\*"
-      ],
-      "mode": "scheduled"
+      ]
     },
     {
-      "name": "osu!",
+      "limit": {
+        "weekday": null,
+        "weekend": null
+      },
       "match": [
         "osu!"
       ],
+      "mode": "scheduled",
+      "name": "osu!",
       "paths": [
         "*\\osulazer\\*",
         "*\\osu!\\*"
-      ],
-      "mode": "scheduled"
+      ]
     },
     {
-      "name": "Lunar Client (Minecraft)",
+      "limit": {
+        "weekday": null,
+        "weekend": null
+      },
       "match": [
         "lunar client"
       ],
+      "mode": "scheduled",
+      "name": "Lunar Client (Minecraft)",
       "paths": [
         "*\\Lunar Client\\*",
         "*\\.lunarclient\\*"
-      ],
-      "mode": "scheduled"
+      ]
     },
     {
-      "name": "TUNG",
+      "limit": {
+        "weekday": null,
+        "weekend": null
+      },
       "match": [
         "tung"
       ],
+      "mode": "scheduled",
+      "name": "TUNG",
       "paths": [
         "*\\TUNG*"
-      ],
-      "mode": "scheduled"
+      ]
     },
     {
-      "name": "BlueStacks (Android games)",
+      "limit": {
+        "weekday": null,
+        "weekend": null
+      },
       "match": [
         "hd-player",
         "hd-multiinstancemanager",
         "bluestacksservices",
         "bluestacksstore"
       ],
+      "mode": "scheduled",
+      "name": "BlueStacks (Android games)",
       "paths": [
         "*\\BlueStacks_nxt\\*",
         "*\\BlueStacks X\\*",
         "*\\BlueStacks Services\\*"
-      ],
-      "mode": "scheduled"
+      ]
     },
     {
-      "name": "Google Play Games",
+      "limit": {
+        "weekday": null,
+        "weekend": null
+      },
       "match": [
         "googleplaygames",
         "crosvm"
       ],
+      "mode": "scheduled",
+      "name": "Google Play Games",
       "paths": [
         "*\\Google\\Play Games\\*"
-      ],
-      "mode": "scheduled"
+      ]
     },
     {
-      "name": "Solitaire & Casual Games",
+      "limit": {
+        "weekday": null,
+        "weekend": null
+      },
       "match": [
         "solitaire"
       ],
+      "mode": "scheduled",
+      "name": "Solitaire & Casual Games",
       "paths": [
         "*\\Microsoft.MicrosoftSolitaireCollection*"
-      ],
-      "mode": "scheduled"
+      ]
     },
     {
-      "name": "Wave (Roblox executor)",
+      "limit": {
+        "weekday": null,
+        "weekend": null
+      },
       "match": [
         "wave"
       ],
+      "mode": "always",
+      "name": "Wave (Roblox executor)",
       "paths": [
         "*\\Wave\\*"
-      ],
-      "mode": "always"
+      ]
     },
     {
-      "name": "BSS macro / AutoHotkey",
+      "limit": {
+        "weekday": null,
+        "weekend": null
+      },
       "match": [
         "autohotkey",
         "autohotkey64",
@@ -265,13 +280,17 @@
         "autohotkeyu32",
         "autohotkeyux"
       ],
+      "mode": "always",
+      "name": "BSS macro / AutoHotkey",
       "paths": [
         "*\\bss macro\\*"
-      ],
-      "mode": "always"
+      ]
     },
     {
-      "name": "MuMu Player (Android games)",
+      "limit": {
+        "weekday": null,
+        "weekend": null
+      },
       "match": [
         "mumuplayer",
         "mumunxdevice",
@@ -282,14 +301,67 @@
         "nemuheadless",
         "mumunxmain"
       ],
+      "mode": "scheduled",
+      "name": "MuMu Player (Android games)",
       "paths": [
         "*\\Netease\\MuMu*",
         "*\\MuMuPlayer*",
         "*\\MuMu Player*"
-      ],
-      "mode": "scheduled"
+      ]
     }
   ],
+  "bonus": {
+    "date": "",
+    "minutes": 0
+  },
+  "childUser": "illai",
+  "lockdown": false,
+  "schedule": {
+    "fri": {
+      "minutes": 240,
+      "windows": [
+        "14:00-23:00"
+      ]
+    },
+    "mon": {
+      "minutes": 0,
+      "windows": [
+        "17:00-18:30"
+      ]
+    },
+    "sat": {
+      "minutes": 120,
+      "windows": [
+        "10:00-12:00",
+        "14:00-16:00"
+      ]
+    },
+    "sun": {
+      "minutes": 120,
+      "windows": [
+        "10:00-12:00",
+        "14:00-16:00"
+      ]
+    },
+    "thu": {
+      "minutes": 0,
+      "windows": [
+        "17:00-18:30"
+      ]
+    },
+    "tue": {
+      "minutes": 0,
+      "windows": [
+        "17:00-18:30"
+      ]
+    },
+    "wed": {
+      "minutes": 0,
+      "windows": [
+        "17:00-18:30"
+      ]
+    }
+  },
   "sites": [
     {
       "domain": "roblox.com",
