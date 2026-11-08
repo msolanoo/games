@@ -315,50 +315,48 @@
     "minutes": 0
   },
   "childUser": "illai",
-  "lockdown": true,
+  "lockdown": false,
   "schedule": {
     "fri": {
-      "minutes": 240,
+      "minutes": 120,
       "windows": [
-        "14:00-23:00"
+        "14:00-22:00"
       ]
     },
     "mon": {
       "minutes": 0,
       "windows": [
-        "17:00-18:30"
+        "17:00-21:30"
       ]
     },
     "sat": {
       "minutes": 120,
       "windows": [
-        "10:00-12:00",
-        "14:00-16:00"
+        "16:00-22:00"
       ]
     },
     "sun": {
       "minutes": 120,
       "windows": [
-        "10:00-12:00",
-        "14:00-16:00"
+        "16:00-21:00"
       ]
     },
     "thu": {
       "minutes": 0,
       "windows": [
-        "17:00-18:30"
+        "17:00-21:30"
       ]
     },
     "tue": {
       "minutes": 0,
       "windows": [
-        "17:00-18:30"
+        "17:00-21:30"
       ]
     },
     "wed": {
       "minutes": 0,
       "windows": [
-        "17:00-18:30"
+        "17:00-21:30"
       ]
     }
   },
