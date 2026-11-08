@@ -308,6 +308,31 @@
         "*\\MuMuPlayer*",
         "*\\MuMu Player*"
       ]
+    },
+    {
+      "activeOnly": true,
+      "limit": {
+        "weekday": 90,
+        "weekend": 120
+      },
+      "match": [
+        "chrome",
+        "msedge",
+        "firefox",
+        "brave",
+        "opera",
+        "vivaldi",
+        "iexplore",
+        "chromium",
+        "waterfox",
+        "librewolf",
+        "arc"
+      ],
+      "mode": "scheduled",
+      "name": "Web browsers",
+      "paths": [
+        "*\\Tor Browser\\*"
+      ]
     }
   ],
   "bonus": {
