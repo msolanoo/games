@@ -138,7 +138,7 @@
     {
       "activeOnly": true,
       "limit": {
-        "weekday": 0,
+        "weekday": 120,
         "weekend": null
       },
       "match": [
@@ -355,8 +355,8 @@
     }
   ],
   "bonus": {
-    "date": "",
-    "minutes": 0
+    "date": "2026-11-11",
+    "minutes": 120
   },
   "childUser": "illai",
   "lockdown": false,
@@ -400,7 +400,7 @@
     "wed": {
       "minutes": 0,
       "windows": [
-        "17:00-21:30"
+        "13:00-21:30"
       ]
     }
   },
