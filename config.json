@@ -331,7 +331,7 @@
     {
       "activeOnly": true,
       "limit": {
-        "weekday": 120,
+        "weekday": 220,
         "weekend": 120
       },
       "match": [
