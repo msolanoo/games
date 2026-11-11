@@ -136,9 +136,9 @@
       ]
     },
     {
-      "activeOnly": false,
+      "activeOnly": true,
       "limit": {
-        "weekday": 60,
+        "weekday": 120,
         "weekend": null
       },
       "match": [
