@@ -1,4 +1,4 @@
-{
+﻿{
   "apps": [
     {
       "activeOnly": false,
@@ -331,7 +331,7 @@
     {
       "activeOnly": true,
       "limit": {
-        "weekday": 60,
+        "weekday": 120,
         "weekend": 120
       },
       "match": [
@@ -359,7 +359,7 @@
     "minutes": 0
   },
   "childUser": "illai",
-  "lockdown": true,
+  "lockdown": false,
   "schedule": {
     "fri": {
       "minutes": 120,
