@@ -136,9 +136,9 @@
       ]
     },
     {
-      "activeOnly": true,
+      "activeOnly": false,
       "limit": {
-        "weekday": 120,
+        "weekday": 60,
         "weekend": null
       },
       "match": [
@@ -392,7 +392,7 @@
       ]
     },
     "tue": {
-      "minutes": 120,
+      "minutes": 190,
       "windows": [
         "17:00-21:30"
       ]
