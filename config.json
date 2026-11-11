@@ -359,7 +359,7 @@
     "minutes": 0
   },
   "childUser": "illai",
-  "lockdown": false,
+  "lockdown": true,
   "schedule": {
     "fri": {
       "minutes": 120,
