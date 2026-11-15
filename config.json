@@ -139,8 +139,7 @@
       "activeOnly": true,
       "limit": {
         "weekday": 120,
-        "weekend": null,
-        "sat": 120
+        "weekend": null
       },
       "match": [
         "discord",
@@ -355,10 +354,6 @@
       ]
     }
   ],
-  "bonus": {
-    "date": "2026-11-14",
-    "minutes": 30
-  },
   "childUser": "illai",
   "lockdown": false,
   "schedule": {
@@ -375,13 +370,13 @@
       ]
     },
     "sat": {
-      "minutes": 150,
+      "minutes": 120,
       "windows": [
         "14:00-21:30"
       ]
     },
     "sun": {
-      "minutes": 150,
+      "minutes": 120,
       "windows": [
         "14:00-20:00"
       ]
