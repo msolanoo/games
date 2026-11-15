@@ -139,7 +139,8 @@
       "activeOnly": true,
       "limit": {
         "weekday": 120,
-        "weekend": null
+        "weekend": null,
+        "sat": 120
       },
       "match": [
         "discord",
