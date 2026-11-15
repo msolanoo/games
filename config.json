@@ -358,7 +358,7 @@
   "lockdown": false,
   "schedule": {
     "fri": {
-      "minutes": 120,
+      "minutes": 0,
       "windows": [
         "14:00-21:30"
       ]
