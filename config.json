@@ -329,9 +329,9 @@
       ]
     },
     {
-      "activeOnly": true,
+      "activeOnly": false,
       "limit": {
-        "weekday": 340,
+        "weekday": 120,
         "weekend": 120
       },
       "match": [
@@ -355,8 +355,8 @@
     }
   ],
   "bonus": {
-    "date": "2026-11-11",
-    "minutes": 120
+    "date": "2026-11-14",
+    "minutes": 30
   },
   "childUser": "illai",
   "lockdown": false,
@@ -364,43 +364,43 @@
     "fri": {
       "minutes": 120,
       "windows": [
-        "14:00-22:00"
+        "14:00-21:30"
       ]
     },
     "mon": {
       "minutes": 0,
       "windows": [
-        "17:00-21:30"
+        "17:00-20:30"
       ]
     },
     "sat": {
-      "minutes": 120,
+      "minutes": 150,
       "windows": [
-        "16:00-22:00"
+        "14:00-21:30"
       ]
     },
     "sun": {
-      "minutes": 120,
+      "minutes": 150,
       "windows": [
-        "16:00-20:00"
+        "14:00-20:00"
       ]
     },
     "thu": {
       "minutes": 0,
       "windows": [
-        "17:00-21:30"
+        "17:00-20:30"
       ]
     },
     "tue": {
-      "minutes": 190,
+      "minutes": 0,
       "windows": [
-        "17:00-21:30"
+        "17:00-20:30"
       ]
     },
     "wed": {
       "minutes": 0,
       "windows": [
-        "13:00-21:30"
+        "17:00-20:30"
       ]
     }
   },
@@ -505,5 +505,10 @@
       "domain": "mumuplayer.com",
       "mode": "scheduled"
     }
-  ]
+  ],
+  "steps": {
+    "goal": 0,
+    "topic": "",
+    "waive": ""
+  }
 }
