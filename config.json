@@ -331,7 +331,7 @@
     {
       "activeOnly": false,
       "limit": {
-        "sun": 300,
+        "sun": 330,
         "weekday": 120,
         "weekend": 120
       },
@@ -355,6 +355,10 @@
       ]
     }
   ],
+  "bonus": {
+    "date": "2026-11-15",
+    "minutes": 90
+  },
   "childUser": "illai",
   "lockdown": false,
   "schedule": {
@@ -507,9 +511,5 @@
     "goal": 0,
     "topic": "",
     "waive": ""
-  },
-  "bonus": {
-    "date": "2026-11-15",
-    "minutes": 60
   }
 }
