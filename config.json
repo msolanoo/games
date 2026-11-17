@@ -331,9 +331,9 @@
     {
       "activeOnly": false,
       "limit": {
-        "sun": 330,
         "weekday": 120,
-        "weekend": 120
+        "weekend": 120,
+        "mon": 240
       },
       "match": [
         "chrome",
@@ -355,10 +355,6 @@
       ]
     }
   ],
-  "bonus": {
-    "date": "2026-11-15",
-    "minutes": 90
-  },
   "childUser": "illai",
   "lockdown": false,
   "schedule": {
