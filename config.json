@@ -331,9 +331,9 @@
     {
       "activeOnly": false,
       "limit": {
+        "tue": 260,
         "weekday": 120,
-        "weekend": 120,
-        "tue": 240
+        "weekend": 120
       },
       "match": [
         "chrome",
