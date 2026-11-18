@@ -333,7 +333,7 @@
       "limit": {
         "weekday": 120,
         "weekend": 120,
-        "mon": 240
+        "tue": 240
       },
       "match": [
         "chrome",
