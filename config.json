@@ -33,16 +33,16 @@
       ]
     },
     {
-      "activeOnly": true,
+      "activeOnly": false,
       "limit": {
-        "weekday": 
-        "weekend":
+        "weekday": null,
+        "weekend": null
       },
       "match": [
         "robloxplayerbeta",
         "robloxstudiobeta"
       ],
-      "mode":
+      "mode": "scheduled",
       "name": "Roblox",
       "paths": [
         "*\\Roblox\\Versions\\*"
@@ -331,12 +331,13 @@
     {
       "activeOnly": false,
       "limit": {
-        "weekday": 200,
-        "weekend": 200,
-        "wed": 200
+        "weekday": 120,
+        "weekend": 120,
+        "thu": 180
       },
       "match": [
         "chrome",
+        "msedge",
         "firefox",
         "brave",
         "opera",
@@ -347,54 +348,54 @@
         "librewolf",
         "arc"
       ],
-      "mode":
+      "mode": "scheduled",
       "name": "Web browsers",
       "paths": [
         "*\\Tor Browser\\*"
       ]
     }
   ],
-  "childUser":
+  "childUser": "illai",
   "lockdown": false,
   "schedule": {
     "fri": {
-      "minutes": 200,
+      "minutes": 0,
       "windows": [
         "14:00-21:30"
       ]
     },
     "mon": {
-      "minutes": 200,
+      "minutes": 0,
       "windows": [
         "17:00-20:30"
       ]
     },
     "sat": {
-      "minutes": 200,
+      "minutes": 120,
       "windows": [
         "14:00-21:30"
       ]
     },
     "sun": {
-      "minutes": 200,
+      "minutes": 120,
       "windows": [
         "14:00-20:00"
       ]
     },
     "thu": {
-      "minutes": 200,
+      "minutes": 0,
       "windows": [
         "17:00-20:30"
       ]
     },
     "tue": {
-      "minutes": 200,
+      "minutes": 0,
       "windows": [
         "17:00-20:30"
       ]
     },
     "wed": {
-      "minutes": 200,
+      "minutes": 0,
       "windows": [
         "17:00-20:30"
       ]
@@ -403,7 +404,7 @@
   "sites": [
     {
       "domain": "roblox.com",
-      "mode":
+      "mode": "scheduled"
     },
     {
       "domain": "epicgames.com",
