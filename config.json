@@ -337,7 +337,6 @@
       },
       "match": [
         "chrome",
-        "msedge",
         "firefox",
         "brave",
         "opera",
