@@ -332,8 +332,7 @@
       "activeOnly": false,
       "limit": {
         "weekday": 120,
-        "weekend": 120,
-        "thu": 180
+        "weekend": 120
       },
       "match": [
         "chrome",
@@ -359,7 +358,7 @@
   "lockdown": false,
   "schedule": {
     "fri": {
-      "minutes": 0,
+      "minutes": 180,
       "windows": [
         "14:00-21:30"
       ]
