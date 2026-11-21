@@ -333,7 +333,8 @@
       "activeOnly": false,
       "limit": {
         "weekday": 120,
-        "weekend": 120
+        "weekend": 120,
+        "sat": 240
       },
       "match": [
         "chrome",
@@ -507,5 +508,9 @@
     "goal": 0,
     "topic": "",
     "waive": ""
+  },
+  "bonus": {
+    "date": "2026-11-21",
+    "minutes": 120
   }
 }
