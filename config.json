@@ -332,7 +332,8 @@
       "activeOnly": false,
       "limit": {
         "weekday": 120,
-        "weekend": 120
+        "weekend": 120,
+        "fri": 240
       },
       "match": [
         "chrome",
