@@ -31,46 +31,7 @@
       "paths": [
         "*\\Epic Games\\*"
       ]
-    },
-    {
-      "activeOnly": false,
-      "limit": {
-        "weekday": null,
-        "weekend": null
-      },
-      "match": [
-        "robloxplayerbeta",
-        "robloxstudiobeta"
-      ],
-      "mode": "scheduled",
-      "name": "Roblox",
-      "paths": [
-        "*\\Roblox\\Versions\\*"
-      ]
-    },
-    {
-      "activeOnly": false,
-      "limit": {
-        "weekday": null,
-        "weekend": null
-      },
-      "match": [
-        "riotclientservices",
-        "riotclientux",
-        "valorant-win64-shipping",
-        "leagueclient"
-      ],
-      "mode": "scheduled",
-      "name": "Riot / Valorant / League",
-      "paths": [
-        "*\\Riot Games\\*"
-      ]
-    },
-    {
-      "activeOnly": false,
-      "limit": {
-        "weekday": null,
-        "weekend": null
+    {  
       },
       "match": [
         "battle.net"
@@ -88,17 +49,6 @@
         "weekday": null,
         "weekend": null
       },
-      "match": [
-        "minecraftlauncher",
-        "minecraft"
-      ],
-      "mode": "scheduled",
-      "name": "Minecraft",
-      "paths": [
-        "*\\.minecraft\\*"
-      ]
-    },
-    {
       "activeOnly": false,
       "limit": {
         "weekday": null,
@@ -141,20 +91,6 @@
         "weekday": 120,
         "weekend": null,
         "sat": 480
-      },
-      "match": [
-        "discord",
-        "discordptb",
-        "discordcanary"
-      ],
-      "mode": "scheduled",
-      "name": "Discord",
-      "paths": [
-        "*\\Discord\\app-*",
-        "*\\DiscordPTB\\*",
-        "*\\DiscordCanary\\*"
-      ]
-    },
     {
       "activeOnly": false,
       "limit": {
@@ -187,23 +123,6 @@
         "*\\osulazer\\*",
         "*\\osu!\\*"
       ]
-    },
-    {
-      "activeOnly": false,
-      "limit": {
-        "weekday": null,
-        "weekend": null
-      },
-      "match": [
-        "lunar client"
-      ],
-      "mode": "scheduled",
-      "name": "Lunar Client (Minecraft)",
-      "paths": [
-        "*\\Lunar Client\\*",
-        "*\\.lunarclient\\*"
-      ]
-    },
     {
       "activeOnly": false,
       "limit": {
@@ -332,13 +251,12 @@
     {
       "activeOnly": false,
       "limit": {
-        "weekday": 120,
-        "weekend": 120,
-        "sat": 270
+        "weekday": 1000,
+        "weekend": 1200,
+        "sat": 2700
       },
       "match": [
         "chrome",
-        "msedge",
         "firefox",
         "brave",
         "opera",
@@ -360,53 +278,49 @@
   "lockdown": false,
   "schedule": {
     "fri": {
-      "minutes": 180,
+      "minutes": 1000,
       "windows": [
         "14:00-21:30"
       ]
     },
     "mon": {
-      "minutes": 0,
+      "minutes": 1000,
       "windows": [
         "17:00-20:30"
       ]
     },
     "sat": {
-      "minutes": 120,
+      "minutes": 1200,
       "windows": [
         "12:00-21:30"
       ]
     },
     "sun": {
-      "minutes": 120,
+      "minutes": 1200,
       "windows": [
         "14:00-20:00"
       ]
     },
     "thu": {
-      "minutes": 0,
+      "minutes": 1000,
       "windows": [
         "17:00-20:30"
       ]
     },
     "tue": {
-      "minutes": 0,
+      "minutes": 1000,
       "windows": [
         "17:00-20:30"
       ]
     },
     "wed": {
-      "minutes": 0,
+      "minutes": 1000,
       "windows": [
         "17:00-20:30"
       ]
     }
   },
   "sites": [
-    {
-      "domain": "roblox.com",
-      "mode": "scheduled"
-    },
     {
       "domain": "epicgames.com",
       "mode": "scheduled"
@@ -452,26 +366,6 @@
       "mode": "scheduled"
     },
     {
-      "domain": "discord.com",
-      "mode": "scheduled"
-    },
-    {
-      "domain": "discord.gg",
-      "mode": "scheduled"
-    },
-    {
-      "domain": "discordapp.com",
-      "mode": "scheduled"
-    },
-    {
-      "domain": "discordapp.net",
-      "mode": "scheduled"
-    },
-    {
-      "domain": "discord.media",
-      "mode": "scheduled"
-    },
-    {
       "domain": "ppy.sh",
       "mode": "scheduled"
     },
@@ -511,6 +405,6 @@
   },
   "bonus": {
     "date": "2026-11-21",
-    "minutes": 150
+    "minutes": 1500
   }
 }
