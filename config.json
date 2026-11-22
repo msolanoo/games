@@ -334,7 +334,7 @@
       "limit": {
         "weekday": 120,
         "weekend": 120,
-        "sat": 240
+        "sat": 270
       },
       "match": [
         "chrome",
@@ -511,6 +511,6 @@
   },
   "bonus": {
     "date": "2026-11-21",
-    "minutes": 120
+    "minutes": 150
   }
 }
