@@ -138,9 +138,9 @@
     {
       "activeOnly": true,
       "limit": {
+        "sat": 480,
         "weekday": 120,
-        "weekend": null,
-        "sat": 480
+        "weekend": null
       },
       "match": [
         "discord",
@@ -332,9 +332,10 @@
     {
       "activeOnly": false,
       "limit": {
+        "sat": 450,
+        "tue": 240,
         "weekday": 120,
-        "weekend": 120,
-        "sat": 450
+        "weekend": 120
       },
       "match": [
         "chrome",
@@ -356,6 +357,10 @@
       ]
     }
   ],
+  "bonus": {
+    "date": "2026-11-24",
+    "minutes": 120
+  },
   "childUser": "illai",
   "lockdown": false,
   "schedule": {
@@ -508,9 +513,5 @@
     "goal": 0,
     "topic": "",
     "waive": ""
-  },
-  "bonus": {
-    "date": "2026-11-21",
-    "minutes": 330
   }
 }
