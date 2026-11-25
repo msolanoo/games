@@ -332,8 +332,8 @@
     {
       "activeOnly": false,
       "limit": {
-        "mon": 240,
         "sat": 450,
+        "tue": 180,
         "weekday": 120,
         "weekend": 120
       },
