@@ -334,6 +334,7 @@
       "limit": {
         "mon": 240,
         "sat": 450,
+        "tue": 180,
         "weekday": 120,
         "weekend": 120
       },
@@ -358,8 +359,8 @@
     }
   ],
   "bonus": {
-    "date": "2026-11-23",
-    "minutes": 75
+    "date": "2026-11-24",
+    "minutes": 60
   },
   "childUser": "illai",
   "lockdown": false,
