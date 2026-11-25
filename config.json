@@ -1,7 +1,7 @@
 {
   "apps": [
     {
-      "activeOnly": false,
+      "activeOnly": true,
       "limit": {
         "weekday": null,
         "weekend": null
@@ -17,7 +17,7 @@
       ]
     },
     {
-      "activeOnly": false,
+      "activeOnly": true,
       "limit": {
         "weekday": null,
         "weekend": null
@@ -33,7 +33,7 @@
       ]
     },
     {
-      "activeOnly": false,
+      "activeOnly": true,
       "limit": {
         "weekday": null,
         "weekend": null
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "activeOnly": false,
+      "activeOnly": true,
       "limit": {
         "weekday": null,
         "weekend": null
@@ -67,7 +67,7 @@
       ]
     },
     {
-      "activeOnly": false,
+      "activeOnly": true,
       "limit": {
         "weekday": null,
         "weekend": null
@@ -83,7 +83,7 @@
       ]
     },
     {
-      "activeOnly": false,
+      "activeOnly": true,
       "limit": {
         "weekday": null,
         "weekend": null
@@ -99,7 +99,7 @@
       ]
     },
     {
-      "activeOnly": false,
+      "activeOnly": true,
       "limit": {
         "weekday": null,
         "weekend": null
@@ -120,7 +120,7 @@
       ]
     },
     {
-      "activeOnly": false,
+      "activeOnly": true,
       "limit": {
         "weekday": null,
         "weekend": null
@@ -156,7 +156,7 @@
       ]
     },
     {
-      "activeOnly": false,
+      "activeOnly": true,
       "limit": {
         "weekday": null,
         "weekend": null
@@ -173,7 +173,7 @@
       ]
     },
     {
-      "activeOnly": false,
+      "activeOnly": true,
       "limit": {
         "weekday": null,
         "weekend": null
@@ -189,7 +189,7 @@
       ]
     },
     {
-      "activeOnly": false,
+      "activeOnly": true,
       "limit": {
         "weekday": null,
         "weekend": null
@@ -205,7 +205,7 @@
       ]
     },
     {
-      "activeOnly": false,
+      "activeOnly": true,
       "limit": {
         "weekday": null,
         "weekend": null
@@ -220,7 +220,7 @@
       ]
     },
     {
-      "activeOnly": false,
+      "activeOnly": true,
       "limit": {
         "weekday": null,
         "weekend": null
@@ -240,7 +240,7 @@
       ]
     },
     {
-      "activeOnly": false,
+      "activeOnly": true,
       "limit": {
         "weekday": null,
         "weekend": null
@@ -256,7 +256,7 @@
       ]
     },
     {
-      "activeOnly": false,
+      "activeOnly": true,
       "limit": {
         "weekday": null,
         "weekend": null
@@ -271,7 +271,7 @@
       ]
     },
     {
-      "activeOnly": false,
+      "activeOnly": true,
       "limit": {
         "weekday": null,
         "weekend": null
@@ -286,7 +286,7 @@
       ]
     },
     {
-      "activeOnly": false,
+      "activeOnly": true,
       "limit": {
         "weekday": null,
         "weekend": null
@@ -306,7 +306,7 @@
       ]
     },
     {
-      "activeOnly": false,
+      "activeOnly": true,
       "limit": {
         "weekday": null,
         "weekend": null
@@ -330,7 +330,7 @@
       ]
     },
     {
-      "activeOnly": false,
+      "activeOnly": true,
       "limit": {
         "sat": 450,
         "tue": 180,
