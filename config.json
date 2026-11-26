@@ -139,7 +139,7 @@
       "activeOnly": true,
       "limit": {
         "sat": 480,
-        "weekday": 120,
+        "weekday": 240,
         "weekend": null
       },
       "match": [
