@@ -357,7 +357,10 @@
       ]
     }
   ],
-  "bonus": {"date": "2026-11-25", "minutes": 120},
+  "bonus": {
+    "date": "2026-11-26",
+    "minutes": 120
+  },
   "childUser": "illai",
   "lockdown": false,
   "schedule": {
